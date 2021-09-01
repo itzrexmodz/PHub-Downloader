@@ -1,0 +1,11 @@
+{
+ "name": "Phub Downloader",
+ "description": "download pornhub videos direct to telegram.",
+ "logo": "https://telegra.ph/file/aa772ed5153c02501e762.jpg",
+ "keywords": ["telegram", "pornhub", "adult", "download", "porn"],
+ "repository": "https://github.com/AmarnathCJD/PHub-Downloader",
+ "env": {"API_KEY": {"description": "Value from my.telegram.org"}, "API_HASH": {"description": "Value from my.telegram.org"}, "TOKEN": {"description": "Bot Token from @BotFather"}, "OWNERS": {"description": "IDs of BOT Admins seperated by ' '(space)", "required": true}},
+ "buildpacks": [{"url": "heroku/python"}, {"url":"https://github.com/amivin/aria2-heroku.git"}],
+}
+ 
+ 
